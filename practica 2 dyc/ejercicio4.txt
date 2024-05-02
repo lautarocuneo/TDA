@@ -1,0 +1,48 @@
+T(n) = T(n - 2) + 5: Esta ecuación tiene una complejidad de tiempo de O(n)
+, ya que cada operación se realiza en un tiempo constante y hay n/2 operaciones.
+
+
+T(n) = T(n - 1) + n: Esta ecuación tiene una complejidad de tiempo de O(n2)
+, ya que cada operación se realiza en un tiempo lineal y hay n operaciones.
+
+
+T(n) = T(n - 1) + √n: Esta ecuación tiene una complejidad de tiempo de O(n^3/2)
+, ya que cada operación se realiza en un tiempo de O(n​)
+ y hay n operaciones.
+
+
+T(n) = T(n - 1) + n^2: Esta ecuación tiene una complejidad de tiempo de O(n^3)
+, ya que cada operación se realiza en un tiempo de O(n^2)
+ y hay n operaciones.
+
+
+T(n) = 2T(n - 1): Esta ecuación tiene una complejidad de tiempo de O(2n)
+, ya que el tamaño del problema se duplica con cada operación.
+
+
+T(n) = T(n/2) + n: Según el Teorema Maestro, esta ecuación tiene una complejidad de tiempo de O(nlogn)
+.
+
+
+T(n) = T(n/2) + √n: Esta ecuación no se ajusta a las condiciones del Teorema Maestro, pero su complejidad de tiempo es probablemente O(n​logn)
+.
+
+
+T(n) = T(n/2) + n^2: Según el Teorema Maestro, esta ecuación tiene una complejidad de tiempo de O(n^2)
+.
+
+
+T(n) = 2T(n - 4): Esta ecuación tiene una complejidad de tiempo de O(2^n/4)
+, ya que el tamaño del problema se duplica con cada cuatro operaciones.
+
+
+T(n) = 2T(n/2) + log n: Según el Teorema Maestro, esta ecuación tiene una complejidad de tiempo de O(nlog2n)
+.
+
+
+T(n) = 3T(n/4): Según el Teorema Maestro, esta ecuación tiene una complejidad de tiempo de O(n^0.793)
+.
+
+
+T(n) = 3T(n/4) + n: Según el Teorema Maestro, esta ecuación tiene una complejidad de tiempo de O(n)
+.
